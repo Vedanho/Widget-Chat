@@ -1,15 +1,13 @@
-import React from 'react';
-import styles from "./WidgetChat.module.css"
+import React from "react";
 
-const WidgetChat = () => {
-    return (
-        <div className={styles.main}>
-            <h1>Do you need a help?</h1>
-            <div>
-              You can write here
-            </div>
-        </div>
-    );
+const WidgetChat: React.FC = () => {
+    
+  return (
+    <div className ="fixed right-0 bottom-0 border-solid border-2 border-black bg-indigo-500 rounded-[50%]">
+      <h1 className="decoration-sky-600">Chat</h1>
+
+    </div>
+  );
 };
 
 export default WidgetChat;
